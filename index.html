@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <article class="form-container">
+      <img class="img-icon" src="https://nerdhits.com.br/wp-content/uploads/2021/04/gon-hunter-x-hunter-1200x900.jpg"
+        alt="imagem">
+      <form class="form">
+        <div class="input-container">
+          <div class="input-content">
+            <img class="icons-form" src="./imgs/icon-email.svg" alt="">
+            <input type="email" name="email" id="email" placeholder="Email" required>
+          </div>
+              <span class="email-error"></span>
+            </div>
+            <div class="input-container">
+              <div class="input-content">
+                <img class="icons-form" src="./imgs/icon-lock.svg" alt="">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+              </div>
+              <span class="password-error"></span>
+            </div>
+            <div class="forgot-button-container">
+              <a href="#" class="forgot-button">Forgot your password?</a>
+            </div>
+
+            <button type="submit" class="button-login">sing in</button>
+      </form>
+
+      <div class="register-container">
+        <h3>Don't have an account?</h3>
+        <button class="register-buttton">register</button>
+      </div>
+    </article>
+  </main>
+  <script type="module" src="./login.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
