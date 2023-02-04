@@ -17,18 +17,18 @@
     <article class="form-container">
       <img class="img-icon" src="https://nerdhits.com.br/wp-content/uploads/2021/04/gon-hunter-x-hunter-1200x900.jpg"
         alt="imagem">
-      <form class="form">
+      <form id="form">
         <div class="input-container">
           <div class="input-content">
             <img class="icons-form" src="./imgs/icon-email.svg" alt="">
-            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="email" name="email" id="email" placeholder="Email" required onchange="ValidateEmail()">
           </div>
               <span class="email-error"></span>
             </div>
             <div class="input-container">
               <div class="input-content">
                 <img class="icons-form" src="./imgs/icon-lock.svg" alt="">
-                <input type="password" name="password" id="password" placeholder="Password" required>
+                <input type="password" name="password" id="password" placeholder="Password" required onchange="ValidatePassword()">
               </div>
               <span class="password-error"></span>
             </div>
@@ -45,7 +45,6 @@
       </div>
     </article>
   </main>
-  <script type="module" src="./login.js"></script>
   <script src="./index.js"></script>
 </body>
 
